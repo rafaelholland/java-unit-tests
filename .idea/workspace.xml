@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ebe79b2-d2f9-4897-a482-8c684c254430" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/entities/AccountTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/factory/AccountFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/entities/AccountTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/factory/AccountFactory.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1spAUSqXePz6iZLw5VoKxMQH7Fw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="JUnit.AccountTests.withdrawShouldThrowExceptionWhenInsufficientBalance">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aula JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.entities" />
+      <option name="MAIN_CLASS_NAME" value="tests.entities.AccountTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTests.fullWithdrawShouldClearBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aula JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.entities" />
+      <option name="MAIN_CLASS_NAME" value="tests.entities.AccountTests" />
+      <option name="METHOD_NAME" value="fullWithdrawShouldClearBalance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTests.fullWithdrawShouldClearBalanceAndReturnFullBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aula JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.entities" />
+      <option name="MAIN_CLASS_NAME" value="tests.entities.AccountTests" />
+      <option name="METHOD_NAME" value="fullWithdrawShouldClearBalanceAndReturnFullBalance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTests.withdrawShouldDecreaseBalanceWhenSufficientBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aula JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.entities" />
+      <option name="MAIN_CLASS_NAME" value="tests.entities.AccountTests" />
+      <option name="METHOD_NAME" value="withdrawShouldDecreaseBalanceWhenSufficientBalance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTests.withdrawShouldThrowExceptionWhenInsufficientBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aula JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.entities" />
+      <option name="MAIN_CLASS_NAME" value="tests.entities.AccountTests" />
+      <option name="METHOD_NAME" value="withdrawShouldThrowExceptionWhenInsufficientBalance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountTests.withdrawShouldThrowExceptionWhenInsufficientBalance" />
+        <item itemvalue="JUnit.AccountTests.withdrawShouldDecreaseBalanceWhenSufficientBalance" />
+        <item itemvalue="JUnit.AccountTests.fullWithdrawShouldClearBalanceAndReturnFullBalance" />
+        <item itemvalue="JUnit.AccountTests.fullWithdrawShouldClearBalance" />
+        <item itemvalue="JUnit.AccountTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ebe79b2-d2f9-4897-a482-8c684c254430" name="Default Changelist" comment="" />
+      <created>1621559174361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621559174361</updated>
+      <workItem from="1621559175672" duration="1595000" />
+      <workItem from="1621634124521" duration="870000" />
+      <workItem from="1622251157790" duration="1522000" />
+      <workItem from="1622396160333" duration="1218000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
